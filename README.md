@@ -17,5 +17,7 @@ npm run dev
 npm run build
 ```
 
-## Reall3dViewer
-https://github.com/reall3d-com/Reall3dViewer
+# Links
+
+- https://github.com/reall3d-com/Reall3dViewer
+- https://github.com/reall3d-com/reall3dviewer-samples-use-npm-package
