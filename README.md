@@ -1,4 +1,4 @@
-# @reall3d/reall3dviewer
+# npm package `@reall3d/reall3dviewer`
 
 <p align=center>
 	<a href="https://reall3d.com/reall3dviewer/samples-use-npm-package/index.html">
