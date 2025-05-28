@@ -26,7 +26,7 @@ renderer.setSize(width, height);
 root.appendChild(renderer.domElement);
 const splatMesh = new SplatMesh({ renderer, scene, controls, shDegree: 3 });
 scene.add(splatMesh);
-splatMesh.addModel({ url: 'https://reall3d.com/demo-models/hornedlizard.spx' }, {});
+splatMesh.addModel({ url: 'https://reall3d.com/demo-models/hornedlizard.spx' });
 
 animate();
 

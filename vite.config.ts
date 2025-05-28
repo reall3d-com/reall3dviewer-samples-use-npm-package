@@ -12,11 +12,11 @@ export default defineConfig({
         }),
     ],
     server: {
-        port: 3100,
+        port: 3900,
         open: true,
     },
     preview: {
-        port: 4100,
+        port: 4900,
     },
     base: './',
     publicDir: 'public',
