@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
-        <title>Reall3dViewer</title>
+        <title>reall3dviewer-samples-use-npm-package</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
         <meta name="mobile-web-app-capable" content="yes" />
@@ -13,10 +13,18 @@
     </head>
 
     <body style="background: black; height: 100vh; margin: 0px; overflow: hidden">
-        <div id="viewer1" style="width: 50%; height: 50%; position: absolute; top: 0px; left: 0px"></div>
-        <div id="viewer2" style="width: 50%; height: 50%; position: absolute; top: 0px; right: 0px"></div>
-        <div id="viewer3" style="width: 50%; height: 50%; position: absolute; top: 50%; left: 0px"></div>
-        <div id="viewer4" style="width: 50%; height: 50%; position: absolute; top: 50%; right: 0px"></div>
+        <div id="viewer1" style="width: 50%; height: 50%; position: absolute; top: 0px; left: 0px">
+            <span style="position: absolute; color: white; padding-left: 10px">Using Reall3dViewer with meta data</span>
+        </div>
+        <div id="viewer2" style="width: 50%; height: 50%; position: absolute; top: 0px; right: 0px">
+            <span style="position: absolute; color: white; padding-left: 10px">Using Reall3dViewer without meta data</span>
+        </div>
+        <div id="viewer3" style="width: 50%; height: 50%; position: absolute; top: 50%; left: 0px">
+            <span style="position: absolute; color: white; padding-left: 10px">Using Reall3dMapViewer</span>
+        </div>
+        <div id="viewer4" style="width: 50%; height: 50%; position: absolute; top: 50%; right: 0px">
+            <span style="position: absolute; color: white; padding-left: 10px">Using SplatMesh</span>
+        </div>
 
         <script type="module" src="./src/index.ts"></script>
     </body>

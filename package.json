@@ -8,7 +8,10 @@
         "preview": "vite preview"
     },
     "dependencies": {
-        "@reall3d/reall3dviewer": "^0.0.6"
+        "@reall3d/reall3dviewer": "^0.0.8",
+        "@gotoeasy/three-tile": "^0.8.7",
+        "@tweenjs/tween.js": "^25.0.0",
+        "three": "^0.171.0"
     },
     "devDependencies": {
         "@types/node": "^22.13.5",
