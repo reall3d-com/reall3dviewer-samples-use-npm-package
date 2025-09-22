@@ -9,7 +9,7 @@
     },
     "dependencies": {
         "@gotoeasy/three-tile": "^0.8.7",
-        "@reall3d/reall3dviewer": "^0.1.6",
+        "@reall3d/reall3dviewer": "^1.7.0",
         "@tweenjs/tween.js": "^25.0.0",
         "three": "^0.171.0"
     },
