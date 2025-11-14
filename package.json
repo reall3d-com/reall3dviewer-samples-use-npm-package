@@ -9,11 +9,11 @@
     },
     "dependencies": {
         "@gotoeasy/three-tile": "^0.8.8",
-        "@reall3d/reall3dviewer": "^2.2.0",
-        "fflate": "^0.8.2",
-        "xz-decompress": "^0.2.3",
+        "@reall3d/reall3dviewer": "^2.2.1",
         "@tweenjs/tween.js": "^25.0.0",
-        "three": "^0.171.0"
+        "fflate": "^0.8.2",
+        "three": "^0.171.0",
+        "xz-decompress": "^0.2.3"
     },
     "devDependencies": {
         "@types/node": "^22.13.5",
