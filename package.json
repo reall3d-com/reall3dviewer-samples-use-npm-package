@@ -1,6 +1,6 @@
 {
     "name": "reall3dviewer-samples-use-npm-package",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -9,7 +9,7 @@
     },
     "dependencies": {
         "@gotoeasy/three-tile": "^0.8.8",
-        "@reall3d/reall3dviewer": "^2.2.1",
+        "@reall3d/reall3dviewer": "^2.3.0",
         "@tweenjs/tween.js": "^25.0.0",
         "fflate": "^0.8.2",
         "three": "^0.171.0",
