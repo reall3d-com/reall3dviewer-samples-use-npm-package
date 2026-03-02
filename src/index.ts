@@ -18,15 +18,15 @@ const { width, height } = root.getBoundingClientRect();
 const scene = new Scene();
 scene.background = new Color('#2f4f4f');
 const camera = new PerspectiveCamera(45, width / height, 0.1, 1000);
-camera.position.z = 3;
+camera.position.set(1.3, -1, -1.3);
 camera.up.set(0, -1, 0);
 const controls = new OrbitControls(camera, root);
-const renderer = new WebGLRenderer({ antialias: false, stencil: true, logarithmicDepthBuffer: true, precision: 'highp' });
+const renderer = new WebGLRenderer({ antialias: false, precision: 'highp' });
 renderer.setSize(width, height);
 root.appendChild(renderer.domElement);
-const splatMesh = new SplatMesh({ renderer, scene, controls, shDegree: 3 });
+const splatMesh = new SplatMesh({ renderer, scene, controls, shDegree: 3, transitionEffect: 1 });
 scene.add(splatMesh);
-splatMesh.addModel({ url: 'https://reall3d.com/demo-models/hornedlizard.v3.spx' });
+splatMesh.addModel({ url: 'https://reall3d.com/demo-models/hornedlizard.v3.sog' });
 
 animate();
 
