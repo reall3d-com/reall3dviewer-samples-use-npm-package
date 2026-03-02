@@ -34,3 +34,12 @@ function animate() {
     renderer.render(scene, camera);
     requestAnimationFrame(animate);
 }
+
+let isPointMode = false;
+window.addEventListener('keyup', e => {
+if (e.code === 'KeyP') {
+    splatMesh.setPointMode((isPointMode = !isPointMode));
+} else if (e.code === 'Space') {
+    splatMesh.switchDisplayMode();
+}
+});
