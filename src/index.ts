@@ -1,6 +1,6 @@
 // import '@reall3d/reall3dviewer/dist/style.css';
 import 'virtual:svg-icons-register';
-import { Reall3dMapViewer, Reall3dViewer, SplatMesh } from '@reall3d/reall3dviewer';
+import { MetaData, Reall3dMapViewer, Reall3dViewer, Reall3dViewerOptions, SplatMesh } from '@reall3d/reall3dviewer';
 import { Color, PerspectiveCamera, Scene, WebGLRenderer } from 'three';
 import { OrbitControls } from 'three/examples/jsm/Addons.js';
 
@@ -37,9 +37,9 @@ function animate() {
 
 let isPointMode = false;
 window.addEventListener('keyup', e => {
-if (e.code === 'KeyP') {
-    splatMesh.setPointMode((isPointMode = !isPointMode));
-} else if (e.code === 'Space') {
-    splatMesh.switchDisplayMode();
-}
+    if (e.code === 'KeyP') {
+        splatMesh.setPointMode((isPointMode = !isPointMode));
+    } else if (e.code === 'Space') {
+        splatMesh.switchDisplayMode();
+    }
 });
